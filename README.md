@@ -8,6 +8,10 @@ For further detail the code can be viewed [here](/challenge/credit_risk_resampli
 
 ## Results
 
+The following is a bulleted list of results comparing sampling methods and models. The metrics of highest improtance for this analysis are balanced accuracy score, high risk loan precision, and high risk loan recall. Balanced accuracy score represents the fraction of correct predeictions, expressed as a fraction 0 to 1 or as a percent. Precision represents the fraction of actual positive instances in the total numper of positive predictions. Precision is expressed as a fraction 0 to 1 or as percent. The final metric of particualar interest in this analysis is recall; which represents the fraction of positive predictions in the total number of actual positive instances. Recall is also expressed as a fraction from 0 to 1 or as a percent.  
+
+[More_information_about_performance_metrics](https://towardsdatascience.com/a-practical-guide-to-seven-essential-performance-metrics-for-classification-using-scikit-learn-2de0e0a8a040)
+
 * Naive Random Oversampling
 
 ![naive_random](/resources/naive_random.png)
