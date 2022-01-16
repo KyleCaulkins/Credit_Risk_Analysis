@@ -28,7 +28,7 @@ The following is a bulleted list of results comparing sampling methods and model
 
 ![undersampling](/resources/undersampling.png)
 
-![score_undersampling](/resources/score_undersampling.png)
+![score_undersampling](/resources/score_under.png)
 
 * Combination (Over and Under) Sampling
 
