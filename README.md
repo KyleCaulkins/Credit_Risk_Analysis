@@ -49,8 +49,8 @@ The following is a bulleted list of results comparing sampling methods and model
 ![score_ensemble](/resources/score_ensemble.png)
 
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+This analysis is performed with the intent to categorize instances of high risk in lending. The credit card credit dataset is realistically unbalanced, with good loans outnumbering risky loans. The idea is to find these low frequency instances of credit risks and flag them to protect the lender. When prioritizing protecting the lender, recall is a highly valued metric. Larger values for high risk loan recall mean a wide net is being cast and a lower amount of false negatives are occurring. In this analysis a false negative would be an actual risky loan slipping through the cracks and being labeled as a low risk. The trade off when prioritizing recall is often a lower precision. Low precision indicates a large number of false positives. In this analysis a false positive is actual good loans being labeled as risky by the model.
+
+The model that had the highest balanced accuracy score (93.17%), highest recall (92%), and highest precision (9%) was the easy ensemble adaboost classifier. This model is recommended for use in flagging potentially risky loans. The during testing the model identified 92% of the risky loans. Although better than the other models tested, the precision is still low at 9%, which means there will be a lot of good loans that are categorized as risky. Given the poor precision, this model should only be used for flagging purposes and should not be the final say on whether a loan is approved or not. Loans flagged as risky will need to be evaluated by lending experts or more resources will need to be committed to producing a better model. 
