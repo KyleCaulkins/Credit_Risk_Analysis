@@ -8,6 +8,14 @@ For further detail the code can be viewed [here](/challenge/credit_risk_resampli
 
 ## Results
 
+* Naive Random Oversampling
+* SMOTE Oversampling
+* Cluster Centroids Undersampling
+* Combination (Over and Under) Sampling
+* Balanced Random Forest Classifier
+* Easy Ensemble AdaBoost Classifier
+
+
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
 ## Summary
