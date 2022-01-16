@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this analysis is to compare two machine learning models and their ability to detect risky loans. The data is from **LendingClub**, and in its raw form is very unbalanced. There are far more good loans than risky loans, which is representative of the current market. Oversampling, undersampling, and a combination approach (oversampling & undersampling) are used to train models with less bias. With good data being provided, two machine learning models **BalancedRandomForestClassifier** and **EasyEnsembleClassifier**, are used to prediect credit risk.
+The purpose of this analysis is to compare machine learning models and their ability to detect risky loans. The data is from **LendingClub**, and in its raw form is very unbalanced. There are far more good loans than risky loans, which is representative of the current market. Oversampling, undersampling, and a combination approach (oversampling & undersampling) are used to train models with less bias. With good data being provided the machine learning models are used to prediect credit risk.
 
 For further detail the code can be viewed [here](/challenge/credit_risk_resampling.ipynb) and [here.](/challenge/credit_risk_ensemble.ipynb)
 
